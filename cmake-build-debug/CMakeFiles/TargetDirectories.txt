@@ -1,0 +1,7 @@
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/learningC.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/HELLO.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/WHILE.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/Counter.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/Sentinel.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
