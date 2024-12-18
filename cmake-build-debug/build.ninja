@@ -205,6 +205,138 @@ build Sentinel.exe: C_EXECUTABLE_LINKER__Sentinel_Debug CMakeFiles/Sentinel.dir/
   TARGET_IMPLIB = libSentinel.dll.a
   TARGET_PDB = Sentinel.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target SI
+
+
+#############################################
+# Order-only phony target for SI
+
+build cmake_object_order_depends_target_SI: phony || CMakeFiles/SI.dir
+
+build CMakeFiles/SI.dir/simpleInterest.c.obj: C_COMPILER__SI_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/simpleInterest.c || cmake_object_order_depends_target_SI
+  DEP_FILE = CMakeFiles\SI.dir\simpleInterest.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SI.dir
+  OBJECT_FILE_DIR = CMakeFiles\SI.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SI
+
+
+#############################################
+# Link the executable SI.exe
+
+build SI.exe: C_EXECUTABLE_LINKER__SI_Debug CMakeFiles/SI.dir/simpleInterest.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SI.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SI.exe
+  TARGET_IMPLIB = libSI.dll.a
+  TARGET_PDB = SI.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target EX1
+
+
+#############################################
+# Order-only phony target for EX1
+
+build cmake_object_order_depends_target_EX1: phony || CMakeFiles/EX1.dir
+
+build CMakeFiles/EX1.dir/LetUsC/Chapter1/Extercise1.c.obj: C_COMPILER__EX1_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/Chapter1/Extercise1.c || cmake_object_order_depends_target_EX1
+  DEP_FILE = CMakeFiles\EX1.dir\LetUsC\Chapter1\Extercise1.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\EX1.dir
+  OBJECT_FILE_DIR = CMakeFiles\EX1.dir\LetUsC\Chapter1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EX1
+
+
+#############################################
+# Link the executable EX1.exe
+
+build EX1.exe: C_EXECUTABLE_LINKER__EX1_Debug CMakeFiles/EX1.dir/LetUsC/Chapter1/Extercise1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EX1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EX1.exe
+  TARGET_IMPLIB = libEX1.dll.a
+  TARGET_PDB = EX1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DistanceCalculate
+
+
+#############################################
+# Order-only phony target for DistanceCalculate
+
+build cmake_object_order_depends_target_DistanceCalculate: phony || CMakeFiles/DistanceCalculate.dir
+
+build CMakeFiles/DistanceCalculate.dir/LetUsC/Chapter1/CalculateDistance.c.obj: C_COMPILER__DistanceCalculate_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/Chapter1/CalculateDistance.c || cmake_object_order_depends_target_DistanceCalculate
+  DEP_FILE = CMakeFiles\DistanceCalculate.dir\LetUsC\Chapter1\CalculateDistance.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DistanceCalculate.dir
+  OBJECT_FILE_DIR = CMakeFiles\DistanceCalculate.dir\LetUsC\Chapter1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DistanceCalculate
+
+
+#############################################
+# Link the executable DistanceCalculate.exe
+
+build DistanceCalculate.exe: C_EXECUTABLE_LINKER__DistanceCalculate_Debug CMakeFiles/DistanceCalculate.dir/LetUsC/Chapter1/CalculateDistance.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DistanceCalculate.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DistanceCalculate.exe
+  TARGET_IMPLIB = libDistanceCalculate.dll.a
+  TARGET_PDB = DistanceCalculate.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TemperatureCalculate
+
+
+#############################################
+# Order-only phony target for TemperatureCalculate
+
+build cmake_object_order_depends_target_TemperatureCalculate: phony || CMakeFiles/TemperatureCalculate.dir
+
+build CMakeFiles/TemperatureCalculate.dir/LetUsC/Chapter1/CalculateTemperature.c.obj: C_COMPILER__TemperatureCalculate_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/Chapter1/CalculateTemperature.c || cmake_object_order_depends_target_TemperatureCalculate
+  DEP_FILE = CMakeFiles\TemperatureCalculate.dir\LetUsC\Chapter1\CalculateTemperature.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TemperatureCalculate.dir
+  OBJECT_FILE_DIR = CMakeFiles\TemperatureCalculate.dir\LetUsC\Chapter1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TemperatureCalculate
+
+
+#############################################
+# Link the executable TemperatureCalculate.exe
+
+build TemperatureCalculate.exe: C_EXECUTABLE_LINKER__TemperatureCalculate_Debug CMakeFiles/TemperatureCalculate.dir/LetUsC/Chapter1/CalculateTemperature.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TemperatureCalculate.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TemperatureCalculate.exe
+  TARGET_IMPLIB = libTemperatureCalculate.dll.a
+  TARGET_PDB = TemperatureCalculate.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -233,9 +365,17 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Counter: phony Counter.exe
 
+build DistanceCalculate: phony DistanceCalculate.exe
+
+build EX1: phony EX1.exe
+
 build HELLO: phony HELLO.exe
 
+build SI: phony SI.exe
+
 build Sentinel: phony Sentinel.exe
+
+build TemperatureCalculate: phony TemperatureCalculate.exe
 
 build WHILE: phony WHILE.exe
 
@@ -249,7 +389,7 @@ build learningC: phony learningC.exe
 #############################################
 # Folder: C:/Users/sumancfc/Videos/learningC/cmake-build-debug
 
-build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe
+build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe
 
 # =============================================================================
 # Built-in targets
