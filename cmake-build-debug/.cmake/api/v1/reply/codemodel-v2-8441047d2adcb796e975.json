@@ -25,7 +25,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -50,7 +51,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -117,6 +119,13 @@
 					"id" : "TemperatureCalculate::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-TemperatureCalculate-Debug-f7e3212cde94d378df1f.json",
 					"name" : "TemperatureCalculate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TriangleArea::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TriangleArea-Debug-82dd4d8e31fa57c89270.json",
+					"name" : "TriangleArea",
 					"projectIndex" : 0
 				},
 				{

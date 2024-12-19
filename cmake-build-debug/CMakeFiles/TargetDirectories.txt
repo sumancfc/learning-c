@@ -9,5 +9,6 @@ C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/DistanceCalculat
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/TemperatureCalculate.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/DigitsSum.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/ReverseNumber.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/TriangleArea.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
