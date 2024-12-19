@@ -337,6 +337,72 @@ build TemperatureCalculate.exe: C_EXECUTABLE_LINKER__TemperatureCalculate_Debug 
   TARGET_IMPLIB = libTemperatureCalculate.dll.a
   TARGET_PDB = TemperatureCalculate.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DigitsSum
+
+
+#############################################
+# Order-only phony target for DigitsSum
+
+build cmake_object_order_depends_target_DigitsSum: phony || CMakeFiles/DigitsSum.dir
+
+build CMakeFiles/DigitsSum.dir/LetUsC/Chapter1/sumOfDigits.c.obj: C_COMPILER__DigitsSum_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/Chapter1/sumOfDigits.c || cmake_object_order_depends_target_DigitsSum
+  DEP_FILE = CMakeFiles\DigitsSum.dir\LetUsC\Chapter1\sumOfDigits.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DigitsSum.dir
+  OBJECT_FILE_DIR = CMakeFiles\DigitsSum.dir\LetUsC\Chapter1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DigitsSum
+
+
+#############################################
+# Link the executable DigitsSum.exe
+
+build DigitsSum.exe: C_EXECUTABLE_LINKER__DigitsSum_Debug CMakeFiles/DigitsSum.dir/LetUsC/Chapter1/sumOfDigits.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DigitsSum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DigitsSum.exe
+  TARGET_IMPLIB = libDigitsSum.dll.a
+  TARGET_PDB = DigitsSum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ReverseNumber
+
+
+#############################################
+# Order-only phony target for ReverseNumber
+
+build cmake_object_order_depends_target_ReverseNumber: phony || CMakeFiles/ReverseNumber.dir
+
+build CMakeFiles/ReverseNumber.dir/LetUsC/Chapter1/ReverseNumber.c.obj: C_COMPILER__ReverseNumber_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/Chapter1/ReverseNumber.c || cmake_object_order_depends_target_ReverseNumber
+  DEP_FILE = CMakeFiles\ReverseNumber.dir\LetUsC\Chapter1\ReverseNumber.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ReverseNumber.dir
+  OBJECT_FILE_DIR = CMakeFiles\ReverseNumber.dir\LetUsC\Chapter1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ReverseNumber
+
+
+#############################################
+# Link the executable ReverseNumber.exe
+
+build ReverseNumber.exe: C_EXECUTABLE_LINKER__ReverseNumber_Debug CMakeFiles/ReverseNumber.dir/LetUsC/Chapter1/ReverseNumber.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ReverseNumber.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ReverseNumber.exe
+  TARGET_IMPLIB = libReverseNumber.dll.a
+  TARGET_PDB = ReverseNumber.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -365,11 +431,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Counter: phony Counter.exe
 
+build DigitsSum: phony DigitsSum.exe
+
 build DistanceCalculate: phony DistanceCalculate.exe
 
 build EX1: phony EX1.exe
 
 build HELLO: phony HELLO.exe
+
+build ReverseNumber: phony ReverseNumber.exe
 
 build SI: phony SI.exe
 
@@ -389,7 +459,7 @@ build learningC: phony learningC.exe
 #############################################
 # Folder: C:/Users/sumancfc/Videos/learningC/cmake-build-debug
 
-build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe
+build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe
 
 # =============================================================================
 # Built-in targets

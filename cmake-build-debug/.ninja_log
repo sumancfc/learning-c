@@ -3,7 +3,8 @@
 144	299	7556358264338012	learningC.exe	8993a149f676f56d
 4	112	7556360197187774	CMakeFiles/HELLO.dir/hello.c.obj	d04fb01caabfba30
 9	110	7556362017615563	CMakeFiles/HELLO.dir/while.c.obj	7f7c860e63eb0a15
-4	341	7562636503627684	build.ninja	3b06c6423713ea82
+20	127	7562641715898378	CMakeFiles/TemperatureCalculate.dir/LetUsC/Chapter1/CalculateTemperature.c.obj	6f5649936ecbcd78
+4	341	7563428531093752	build.ninja	3b06c6423713ea82
 112	251	7556360198267438	HELLO.exe	f1a0370205ee9374
 17	121	7556365417913516	CMakeFiles/WHILE.dir/while.c.obj	1e778044d0b6fa9f
 122	278	7556365418962535	WHILE.exe	1e63d8dec7016fe3
@@ -17,11 +18,10 @@
 162	328	7562634685048113	EX1.exe	c3435c0bd704bfb
 12	139	7562634838523636	CMakeFiles/DistanceCalculate.dir/LetUsC/Chapter1/CalculateDistance.c.obj	bf3814d9f584f225
 140	307	7562634839793637	DistanceCalculate.exe	2072f47677813954
-13	133	7562640569204781	CMakeFiles/TemperatureCalculate.dir/LetUsC/Chapter1/CalculateTemperature.c.obj	6f5649936ecbcd78
-134	312	7562640570404778	TemperatureCalculate.exe	67b65d61fcb5b965
-15	117	7562640755470120	CMakeFiles/TemperatureCalculate.dir/LetUsC/Chapter1/CalculateTemperature.c.obj	6f5649936ecbcd78
-118	272	7562640756498333	TemperatureCalculate.exe	67b65d61fcb5b965
-8	120	7562641127301038	CMakeFiles/TemperatureCalculate.dir/LetUsC/Chapter1/CalculateTemperature.c.obj	6f5649936ecbcd78
-121	271	7562641128429740	TemperatureCalculate.exe	67b65d61fcb5b965
-20	127	7562641715898378	CMakeFiles/TemperatureCalculate.dir/LetUsC/Chapter1/CalculateTemperature.c.obj	6f5649936ecbcd78
 128	276	7562641716974444	TemperatureCalculate.exe	67b65d61fcb5b965
+14	145	7563428086553180	CMakeFiles/DigitsSum.dir/LetUsC/Chapter1/sumOfDigits.c.obj	d96fe1b455ee0e27
+146	315	7563428087867545	DigitsSum.exe	1784b35eaf2981b2
+14	143	7563432955681424	CMakeFiles/ReverseNumber.dir/LetUsC/Chapter1/ReverseNumber.c.obj	d369d5aba4bd6d4
+144	306	7563432956969629	ReverseNumber.exe	36de457ed45baced
+17	146	7563433464552604	CMakeFiles/ReverseNumber.dir/LetUsC/Chapter1/ReverseNumber.c.obj	d369d5aba4bd6d4
+147	307	7563433465853558	ReverseNumber.exe	36de457ed45baced

@@ -7,5 +7,7 @@ C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/SI.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/EX1.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/DistanceCalculate.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/TemperatureCalculate.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/DigitsSum.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/ReverseNumber.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
