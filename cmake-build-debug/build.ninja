@@ -469,6 +469,72 @@ build SWAP.exe: C_EXECUTABLE_LINKER__SWAP_Debug CMakeFiles/SWAP.dir/LetUsC/Chapt
   TARGET_IMPLIB = libSWAP.dll.a
   TARGET_PDB = SWAP.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target EvenOdd
+
+
+#############################################
+# Order-only phony target for EvenOdd
+
+build cmake_object_order_depends_target_EvenOdd: phony || CMakeFiles/EvenOdd.dir
+
+build CMakeFiles/EvenOdd.dir/LetUsC/DecisionControl/evenOdd.c.obj: C_COMPILER__EvenOdd_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/DecisionControl/evenOdd.c || cmake_object_order_depends_target_EvenOdd
+  DEP_FILE = CMakeFiles\EvenOdd.dir\LetUsC\DecisionControl\evenOdd.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\EvenOdd.dir
+  OBJECT_FILE_DIR = CMakeFiles\EvenOdd.dir\LetUsC\DecisionControl
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EvenOdd
+
+
+#############################################
+# Link the executable EvenOdd.exe
+
+build EvenOdd.exe: C_EXECUTABLE_LINKER__EvenOdd_Debug CMakeFiles/EvenOdd.dir/LetUsC/DecisionControl/evenOdd.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EvenOdd.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EvenOdd.exe
+  TARGET_IMPLIB = libEvenOdd.dll.a
+  TARGET_PDB = EvenOdd.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ProfitLoss
+
+
+#############################################
+# Order-only phony target for ProfitLoss
+
+build cmake_object_order_depends_target_ProfitLoss: phony || CMakeFiles/ProfitLoss.dir
+
+build CMakeFiles/ProfitLoss.dir/LetUsC/DecisionControl/profitAndLoss.c.obj: C_COMPILER__ProfitLoss_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/DecisionControl/profitAndLoss.c || cmake_object_order_depends_target_ProfitLoss
+  DEP_FILE = CMakeFiles\ProfitLoss.dir\LetUsC\DecisionControl\profitAndLoss.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ProfitLoss.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProfitLoss.dir\LetUsC\DecisionControl
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ProfitLoss
+
+
+#############################################
+# Link the executable ProfitLoss.exe
+
+build ProfitLoss.exe: C_EXECUTABLE_LINKER__ProfitLoss_Debug CMakeFiles/ProfitLoss.dir/LetUsC/DecisionControl/profitAndLoss.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ProfitLoss.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ProfitLoss.exe
+  TARGET_IMPLIB = libProfitLoss.dll.a
+  TARGET_PDB = ProfitLoss.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -503,7 +569,11 @@ build DistanceCalculate: phony DistanceCalculate.exe
 
 build EX1: phony EX1.exe
 
+build EvenOdd: phony EvenOdd.exe
+
 build HELLO: phony HELLO.exe
+
+build ProfitLoss: phony ProfitLoss.exe
 
 build ReverseNumber: phony ReverseNumber.exe
 
@@ -529,7 +599,7 @@ build learningC: phony learningC.exe
 #############################################
 # Folder: C:/Users/sumancfc/Videos/learningC/cmake-build-debug
 
-build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe
+build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe
 
 # =============================================================================
 # Built-in targets
