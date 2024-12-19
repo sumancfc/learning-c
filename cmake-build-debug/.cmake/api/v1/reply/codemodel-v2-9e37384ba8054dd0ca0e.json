@@ -26,7 +26,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -52,7 +53,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						12
 					]
 				}
 			],
@@ -105,6 +107,13 @@
 					"id" : "SI::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-SI-Debug-807888a834bd9468a0fd.json",
 					"name" : "SI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SWAP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SWAP-Debug-94c44ef8be9d4594d340.json",
+					"name" : "SWAP",
 					"projectIndex" : 0
 				},
 				{

@@ -4,7 +4,7 @@
 4	112	7556360197187774	CMakeFiles/HELLO.dir/hello.c.obj	d04fb01caabfba30
 9	110	7556362017615563	CMakeFiles/HELLO.dir/while.c.obj	7f7c860e63eb0a15
 20	127	7562641715898378	CMakeFiles/TemperatureCalculate.dir/LetUsC/Chapter1/CalculateTemperature.c.obj	6f5649936ecbcd78
-4	341	7563436365459214	build.ninja	3b06c6423713ea82
+4	341	7563444737099287	build.ninja	3b06c6423713ea82
 112	251	7556360198267438	HELLO.exe	f1a0370205ee9374
 17	121	7556365417913516	CMakeFiles/WHILE.dir/while.c.obj	1e778044d0b6fa9f
 122	278	7556365418962535	WHILE.exe	1e63d8dec7016fe3
@@ -21,13 +21,11 @@
 128	276	7562641716974444	TemperatureCalculate.exe	67b65d61fcb5b965
 14	145	7563428086553180	CMakeFiles/DigitsSum.dir/LetUsC/Chapter1/sumOfDigits.c.obj	d96fe1b455ee0e27
 146	315	7563428087867545	DigitsSum.exe	1784b35eaf2981b2
+23	143	7563443087767898	CMakeFiles/TriangleArea.dir/LetUsC/Chapter1/AreaOfTriangle.c.obj	fe35b084bd2ad468
 17	146	7563433464552604	CMakeFiles/ReverseNumber.dir/LetUsC/Chapter1/ReverseNumber.c.obj	d369d5aba4bd6d4
 147	307	7563433465853558	ReverseNumber.exe	36de457ed45baced
-15	139	7563441808321074	CMakeFiles/TriangleArea.dir/LetUsC/Chapter1/AreaOfTriangle.c.obj	fe35b084bd2ad468
-140	311	7563441809576477	TriangleArea.exe	e068b1da5f6ab495
-18	136	7563442176413674	CMakeFiles/TriangleArea.dir/LetUsC/Chapter1/AreaOfTriangle.c.obj	fe35b084bd2ad468
-137	301	7563442177595850	TriangleArea.exe	e068b1da5f6ab495
-17	125	7563442656581071	CMakeFiles/TriangleArea.dir/LetUsC/Chapter1/AreaOfTriangle.c.obj	fe35b084bd2ad468
-126	292	7563442657676608	TriangleArea.exe	e068b1da5f6ab495
-23	143	7563443087767898	CMakeFiles/TriangleArea.dir/LetUsC/Chapter1/AreaOfTriangle.c.obj	fe35b084bd2ad468
 144	303	7563443088983255	TriangleArea.exe	e068b1da5f6ab495
+14	125	7563446471648029	CMakeFiles/SWAP.dir/LetUsC/Chapter1/valueSwap.c.obj	9cf78705e07045ac
+126	283	7563446472758103	SWAP.exe	3a95b91731dc1185
+8	119	7563446957821153	CMakeFiles/SWAP.dir/LetUsC/Chapter1/valueSwap.c.obj	9cf78705e07045ac
+120	273	7563446958939901	SWAP.exe	3a95b91731dc1185

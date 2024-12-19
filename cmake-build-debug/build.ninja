@@ -436,6 +436,39 @@ build TriangleArea.exe: C_EXECUTABLE_LINKER__TriangleArea_Debug CMakeFiles/Trian
   TARGET_IMPLIB = libTriangleArea.dll.a
   TARGET_PDB = TriangleArea.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target SWAP
+
+
+#############################################
+# Order-only phony target for SWAP
+
+build cmake_object_order_depends_target_SWAP: phony || CMakeFiles/SWAP.dir
+
+build CMakeFiles/SWAP.dir/LetUsC/Chapter1/valueSwap.c.obj: C_COMPILER__SWAP_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/Chapter1/valueSwap.c || cmake_object_order_depends_target_SWAP
+  DEP_FILE = CMakeFiles\SWAP.dir\LetUsC\Chapter1\valueSwap.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SWAP.dir
+  OBJECT_FILE_DIR = CMakeFiles\SWAP.dir\LetUsC\Chapter1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SWAP
+
+
+#############################################
+# Link the executable SWAP.exe
+
+build SWAP.exe: C_EXECUTABLE_LINKER__SWAP_Debug CMakeFiles/SWAP.dir/LetUsC/Chapter1/valueSwap.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SWAP.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SWAP.exe
+  TARGET_IMPLIB = libSWAP.dll.a
+  TARGET_PDB = SWAP.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -476,6 +509,8 @@ build ReverseNumber: phony ReverseNumber.exe
 
 build SI: phony SI.exe
 
+build SWAP: phony SWAP.exe
+
 build Sentinel: phony Sentinel.exe
 
 build TemperatureCalculate: phony TemperatureCalculate.exe
@@ -494,7 +529,7 @@ build learningC: phony learningC.exe
 #############################################
 # Folder: C:/Users/sumancfc/Videos/learningC/cmake-build-debug
 
-build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe
+build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe
 
 # =============================================================================
 # Built-in targets
