@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Pattern2.exe"
+			"path" : "RepeatNumbers.exe"
 		},
 		{
-			"path" : "Pattern2.pdb"
+			"path" : "RepeatNumbers.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "Pattern2::@6890427a1f51a3e7e1df",
+	"id" : "RepeatNumbers::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "Pattern2",
-	"nameOnDisk" : "Pattern2.exe",
+	"name" : "RepeatNumbers",
+	"nameOnDisk" : "RepeatNumbers.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Patterns/Pattern2.c",
+			"path" : "Patterns/repeat_numbers_in_triangle.c",
 			"sourceGroupIndex" : 0
 		}
 	],

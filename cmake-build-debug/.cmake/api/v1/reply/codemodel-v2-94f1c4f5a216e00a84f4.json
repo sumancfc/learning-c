@@ -32,7 +32,9 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18,
+						19
 					]
 				}
 			],
@@ -64,7 +66,9 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18,
+						19
 					]
 				}
 			],
@@ -114,16 +118,23 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Pattern1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Pattern1-Debug-5c0ba4fa8c393231e58e.json",
-					"name" : "Pattern1",
+					"id" : "IncrementNumber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IncrementNumber-Debug-32f1f0e6b30310e2bf99.json",
+					"name" : "IncrementNumber",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Pattern2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Pattern2-Debug-59afd19cb6f270573a79.json",
-					"name" : "Pattern2",
+					"id" : "IncrementNumberInRows::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IncrementNumberInRows-Debug-a5747c64c9b05e552918.json",
+					"name" : "IncrementNumberInRows",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LeftRightAsterisks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LeftRightAsterisks-Debug-880b2682f956fcd0dfbf.json",
+					"name" : "LeftRightAsterisks",
 					"projectIndex" : 0
 				},
 				{
@@ -135,9 +146,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "RepeatNumbers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RepeatNumbers-Debug-db4e2d2a27c6d10947ca.json",
+					"name" : "RepeatNumbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "ReverseNumber::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ReverseNumber-Debug-859eba63eaf605e66bac.json",
 					"name" : "ReverseNumber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RightLeftAsterisks::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RightLeftAsterisks-Debug-337ab399ca502938fbae.json",
+					"name" : "RightLeftAsterisks",
 					"projectIndex" : 0
 				},
 				{
@@ -187,13 +212,6 @@
 					"id" : "learningC::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-learningC-Debug-8cf3a712da4f8645924c.json",
 					"name" : "learningC",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "trianglePattern::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-trianglePattern-Debug-24fe2b5fe4881e3f1664.json",
-					"name" : "trianglePattern",
 					"projectIndex" : 0
 				}
 			]

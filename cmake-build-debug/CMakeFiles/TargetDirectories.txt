@@ -13,8 +13,10 @@ C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/TriangleArea.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/SWAP.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/EvenOdd.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/ProfitLoss.dir
-C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/trianglePattern.dir
-C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/Pattern1.dir
-C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/Pattern2.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/LeftRightAsterisks.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/RightLeftAsterisks.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/RepeatNumbers.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/IncrementNumber.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/IncrementNumberInRows.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

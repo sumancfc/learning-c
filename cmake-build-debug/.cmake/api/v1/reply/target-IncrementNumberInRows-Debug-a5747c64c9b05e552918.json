@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "trianglePattern.exe"
+			"path" : "IncrementNumberInRows.exe"
 		},
 		{
-			"path" : "trianglePattern.pdb"
+			"path" : "IncrementNumberInRows.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 21,
+				"line" : 25,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "trianglePattern::@6890427a1f51a3e7e1df",
+	"id" : "IncrementNumberInRows::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "trianglePattern",
-	"nameOnDisk" : "trianglePattern.exe",
+	"name" : "IncrementNumberInRows",
+	"nameOnDisk" : "IncrementNumberInRows.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Patterns/TrianglePattern.c",
+			"path" : "Patterns/increment_numbers_in_rows.c",
 			"sourceGroupIndex" : 0
 		}
 	],

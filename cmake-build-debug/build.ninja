@@ -536,103 +536,169 @@ build ProfitLoss.exe: C_EXECUTABLE_LINKER__ProfitLoss_Debug CMakeFiles/ProfitLos
   TARGET_PDB = ProfitLoss.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target trianglePattern
+# Object build statements for EXECUTABLE target LeftRightAsterisks
 
 
 #############################################
-# Order-only phony target for trianglePattern
+# Order-only phony target for LeftRightAsterisks
 
-build cmake_object_order_depends_target_trianglePattern: phony || CMakeFiles/trianglePattern.dir
+build cmake_object_order_depends_target_LeftRightAsterisks: phony || CMakeFiles/LeftRightAsterisks.dir
 
-build CMakeFiles/trianglePattern.dir/Patterns/TrianglePattern.c.obj: C_COMPILER__trianglePattern_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/TrianglePattern.c || cmake_object_order_depends_target_trianglePattern
-  DEP_FILE = CMakeFiles\trianglePattern.dir\Patterns\TrianglePattern.c.obj.d
+build CMakeFiles/LeftRightAsterisks.dir/Patterns/left_right_triangle.c.obj: C_COMPILER__LeftRightAsterisks_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/left_right_triangle.c || cmake_object_order_depends_target_LeftRightAsterisks
+  DEP_FILE = CMakeFiles\LeftRightAsterisks.dir\Patterns\left_right_triangle.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\trianglePattern.dir
-  OBJECT_FILE_DIR = CMakeFiles\trianglePattern.dir\Patterns
+  OBJECT_DIR = CMakeFiles\LeftRightAsterisks.dir
+  OBJECT_FILE_DIR = CMakeFiles\LeftRightAsterisks.dir\Patterns
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target trianglePattern
+# Link build statements for EXECUTABLE target LeftRightAsterisks
 
 
 #############################################
-# Link the executable trianglePattern.exe
+# Link the executable LeftRightAsterisks.exe
 
-build trianglePattern.exe: C_EXECUTABLE_LINKER__trianglePattern_Debug CMakeFiles/trianglePattern.dir/Patterns/TrianglePattern.c.obj
+build LeftRightAsterisks.exe: C_EXECUTABLE_LINKER__LeftRightAsterisks_Debug CMakeFiles/LeftRightAsterisks.dir/Patterns/left_right_triangle.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\trianglePattern.dir
+  OBJECT_DIR = CMakeFiles\LeftRightAsterisks.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = trianglePattern.exe
-  TARGET_IMPLIB = libtrianglePattern.dll.a
-  TARGET_PDB = trianglePattern.exe.dbg
+  TARGET_FILE = LeftRightAsterisks.exe
+  TARGET_IMPLIB = libLeftRightAsterisks.dll.a
+  TARGET_PDB = LeftRightAsterisks.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Pattern1
+# Object build statements for EXECUTABLE target RightLeftAsterisks
 
 
 #############################################
-# Order-only phony target for Pattern1
+# Order-only phony target for RightLeftAsterisks
 
-build cmake_object_order_depends_target_Pattern1: phony || CMakeFiles/Pattern1.dir
+build cmake_object_order_depends_target_RightLeftAsterisks: phony || CMakeFiles/RightLeftAsterisks.dir
 
-build CMakeFiles/Pattern1.dir/Patterns/Pattern1.c.obj: C_COMPILER__Pattern1_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/Pattern1.c || cmake_object_order_depends_target_Pattern1
-  DEP_FILE = CMakeFiles\Pattern1.dir\Patterns\Pattern1.c.obj.d
+build CMakeFiles/RightLeftAsterisks.dir/Patterns/right_left_triangle.c.obj: C_COMPILER__RightLeftAsterisks_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/right_left_triangle.c || cmake_object_order_depends_target_RightLeftAsterisks
+  DEP_FILE = CMakeFiles\RightLeftAsterisks.dir\Patterns\right_left_triangle.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Pattern1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pattern1.dir\Patterns
+  OBJECT_DIR = CMakeFiles\RightLeftAsterisks.dir
+  OBJECT_FILE_DIR = CMakeFiles\RightLeftAsterisks.dir\Patterns
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Pattern1
+# Link build statements for EXECUTABLE target RightLeftAsterisks
 
 
 #############################################
-# Link the executable Pattern1.exe
+# Link the executable RightLeftAsterisks.exe
 
-build Pattern1.exe: C_EXECUTABLE_LINKER__Pattern1_Debug CMakeFiles/Pattern1.dir/Patterns/Pattern1.c.obj
+build RightLeftAsterisks.exe: C_EXECUTABLE_LINKER__RightLeftAsterisks_Debug CMakeFiles/RightLeftAsterisks.dir/Patterns/right_left_triangle.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Pattern1.dir
+  OBJECT_DIR = CMakeFiles\RightLeftAsterisks.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Pattern1.exe
-  TARGET_IMPLIB = libPattern1.dll.a
-  TARGET_PDB = Pattern1.exe.dbg
+  TARGET_FILE = RightLeftAsterisks.exe
+  TARGET_IMPLIB = libRightLeftAsterisks.dll.a
+  TARGET_PDB = RightLeftAsterisks.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Pattern2
+# Object build statements for EXECUTABLE target RepeatNumbers
 
 
 #############################################
-# Order-only phony target for Pattern2
+# Order-only phony target for RepeatNumbers
 
-build cmake_object_order_depends_target_Pattern2: phony || CMakeFiles/Pattern2.dir
+build cmake_object_order_depends_target_RepeatNumbers: phony || CMakeFiles/RepeatNumbers.dir
 
-build CMakeFiles/Pattern2.dir/Patterns/Pattern2.c.obj: C_COMPILER__Pattern2_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/Pattern2.c || cmake_object_order_depends_target_Pattern2
-  DEP_FILE = CMakeFiles\Pattern2.dir\Patterns\Pattern2.c.obj.d
+build CMakeFiles/RepeatNumbers.dir/Patterns/repeat_numbers_in_triangle.c.obj: C_COMPILER__RepeatNumbers_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/repeat_numbers_in_triangle.c || cmake_object_order_depends_target_RepeatNumbers
+  DEP_FILE = CMakeFiles\RepeatNumbers.dir\Patterns\repeat_numbers_in_triangle.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Pattern2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pattern2.dir\Patterns
+  OBJECT_DIR = CMakeFiles\RepeatNumbers.dir
+  OBJECT_FILE_DIR = CMakeFiles\RepeatNumbers.dir\Patterns
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Pattern2
+# Link build statements for EXECUTABLE target RepeatNumbers
 
 
 #############################################
-# Link the executable Pattern2.exe
+# Link the executable RepeatNumbers.exe
 
-build Pattern2.exe: C_EXECUTABLE_LINKER__Pattern2_Debug CMakeFiles/Pattern2.dir/Patterns/Pattern2.c.obj
+build RepeatNumbers.exe: C_EXECUTABLE_LINKER__RepeatNumbers_Debug CMakeFiles/RepeatNumbers.dir/Patterns/repeat_numbers_in_triangle.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Pattern2.dir
+  OBJECT_DIR = CMakeFiles\RepeatNumbers.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Pattern2.exe
-  TARGET_IMPLIB = libPattern2.dll.a
-  TARGET_PDB = Pattern2.exe.dbg
+  TARGET_FILE = RepeatNumbers.exe
+  TARGET_IMPLIB = libRepeatNumbers.dll.a
+  TARGET_PDB = RepeatNumbers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IncrementNumber
+
+
+#############################################
+# Order-only phony target for IncrementNumber
+
+build cmake_object_order_depends_target_IncrementNumber: phony || CMakeFiles/IncrementNumber.dir
+
+build CMakeFiles/IncrementNumber.dir/Patterns/increment_numbers_in_triangle.c.obj: C_COMPILER__IncrementNumber_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/increment_numbers_in_triangle.c || cmake_object_order_depends_target_IncrementNumber
+  DEP_FILE = CMakeFiles\IncrementNumber.dir\Patterns\increment_numbers_in_triangle.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\IncrementNumber.dir
+  OBJECT_FILE_DIR = CMakeFiles\IncrementNumber.dir\Patterns
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IncrementNumber
+
+
+#############################################
+# Link the executable IncrementNumber.exe
+
+build IncrementNumber.exe: C_EXECUTABLE_LINKER__IncrementNumber_Debug CMakeFiles/IncrementNumber.dir/Patterns/increment_numbers_in_triangle.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IncrementNumber.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IncrementNumber.exe
+  TARGET_IMPLIB = libIncrementNumber.dll.a
+  TARGET_PDB = IncrementNumber.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target IncrementNumberInRows
+
+
+#############################################
+# Order-only phony target for IncrementNumberInRows
+
+build cmake_object_order_depends_target_IncrementNumberInRows: phony || CMakeFiles/IncrementNumberInRows.dir
+
+build CMakeFiles/IncrementNumberInRows.dir/Patterns/increment_numbers_in_rows.c.obj: C_COMPILER__IncrementNumberInRows_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/increment_numbers_in_rows.c || cmake_object_order_depends_target_IncrementNumberInRows
+  DEP_FILE = CMakeFiles\IncrementNumberInRows.dir\Patterns\increment_numbers_in_rows.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\IncrementNumberInRows.dir
+  OBJECT_FILE_DIR = CMakeFiles\IncrementNumberInRows.dir\Patterns
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IncrementNumberInRows
+
+
+#############################################
+# Link the executable IncrementNumberInRows.exe
+
+build IncrementNumberInRows.exe: C_EXECUTABLE_LINKER__IncrementNumberInRows_Debug CMakeFiles/IncrementNumberInRows.dir/Patterns/increment_numbers_in_rows.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IncrementNumberInRows.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IncrementNumberInRows.exe
+  TARGET_IMPLIB = libIncrementNumberInRows.dll.a
+  TARGET_PDB = IncrementNumberInRows.exe.dbg
 
 
 #############################################
@@ -672,13 +738,19 @@ build EvenOdd: phony EvenOdd.exe
 
 build HELLO: phony HELLO.exe
 
-build Pattern1: phony Pattern1.exe
+build IncrementNumber: phony IncrementNumber.exe
 
-build Pattern2: phony Pattern2.exe
+build IncrementNumberInRows: phony IncrementNumberInRows.exe
+
+build LeftRightAsterisks: phony LeftRightAsterisks.exe
 
 build ProfitLoss: phony ProfitLoss.exe
 
+build RepeatNumbers: phony RepeatNumbers.exe
+
 build ReverseNumber: phony ReverseNumber.exe
+
+build RightLeftAsterisks: phony RightLeftAsterisks.exe
 
 build SI: phony SI.exe
 
@@ -694,8 +766,6 @@ build WHILE: phony WHILE.exe
 
 build learningC: phony learningC.exe
 
-build trianglePattern: phony trianglePattern.exe
-
 # =============================================================================
 # Folder targets.
 
@@ -704,7 +774,7 @@ build trianglePattern: phony trianglePattern.exe
 #############################################
 # Folder: C:/Users/sumancfc/Videos/learningC/cmake-build-debug
 
-build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe trianglePattern.exe Pattern1.exe Pattern2.exe
+build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe LeftRightAsterisks.exe RightLeftAsterisks.exe RepeatNumbers.exe IncrementNumber.exe IncrementNumberInRows.exe
 
 # =============================================================================
 # Built-in targets

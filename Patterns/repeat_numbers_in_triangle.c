@@ -1,10 +1,3 @@
-//
-// 1
-// 22
-// 333
-// 4444
-// 55555
-//
 #include<stdio.h>
 
 void main()
@@ -20,6 +13,6 @@ void main()
         {
             printf(" %d ", i);
         }
-    printf("\n");
+        printf("\n");
     }
 }
