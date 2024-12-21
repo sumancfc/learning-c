@@ -535,6 +535,39 @@ build ProfitLoss.exe: C_EXECUTABLE_LINKER__ProfitLoss_Debug CMakeFiles/ProfitLos
   TARGET_IMPLIB = libProfitLoss.dll.a
   TARGET_PDB = ProfitLoss.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target trianglePattern
+
+
+#############################################
+# Order-only phony target for trianglePattern
+
+build cmake_object_order_depends_target_trianglePattern: phony || CMakeFiles/trianglePattern.dir
+
+build CMakeFiles/trianglePattern.dir/TrianglePattern.c.obj: C_COMPILER__trianglePattern_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/TrianglePattern.c || cmake_object_order_depends_target_trianglePattern
+  DEP_FILE = CMakeFiles\trianglePattern.dir\TrianglePattern.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\trianglePattern.dir
+  OBJECT_FILE_DIR = CMakeFiles\trianglePattern.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target trianglePattern
+
+
+#############################################
+# Link the executable trianglePattern.exe
+
+build trianglePattern.exe: C_EXECUTABLE_LINKER__trianglePattern_Debug CMakeFiles/trianglePattern.dir/TrianglePattern.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\trianglePattern.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = trianglePattern.exe
+  TARGET_IMPLIB = libtrianglePattern.dll.a
+  TARGET_PDB = trianglePattern.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -591,6 +624,8 @@ build WHILE: phony WHILE.exe
 
 build learningC: phony learningC.exe
 
+build trianglePattern: phony trianglePattern.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -599,7 +634,7 @@ build learningC: phony learningC.exe
 #############################################
 # Folder: C:/Users/sumancfc/Videos/learningC/cmake-build-debug
 
-build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe
+build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe trianglePattern.exe
 
 # =============================================================================
 # Built-in targets
