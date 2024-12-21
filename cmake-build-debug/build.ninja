@@ -700,6 +700,72 @@ build IncrementNumberInRows.exe: C_EXECUTABLE_LINKER__IncrementNumberInRows_Debu
   TARGET_IMPLIB = libIncrementNumberInRows.dll.a
   TARGET_PDB = IncrementNumberInRows.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target RightLeftReverseTriangle
+
+
+#############################################
+# Order-only phony target for RightLeftReverseTriangle
+
+build cmake_object_order_depends_target_RightLeftReverseTriangle: phony || CMakeFiles/RightLeftReverseTriangle.dir
+
+build CMakeFiles/RightLeftReverseTriangle.dir/Patterns/right_left_reverse_triangle.c.obj: C_COMPILER__RightLeftReverseTriangle_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/right_left_reverse_triangle.c || cmake_object_order_depends_target_RightLeftReverseTriangle
+  DEP_FILE = CMakeFiles\RightLeftReverseTriangle.dir\Patterns\right_left_reverse_triangle.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RightLeftReverseTriangle.dir
+  OBJECT_FILE_DIR = CMakeFiles\RightLeftReverseTriangle.dir\Patterns
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RightLeftReverseTriangle
+
+
+#############################################
+# Link the executable RightLeftReverseTriangle.exe
+
+build RightLeftReverseTriangle.exe: C_EXECUTABLE_LINKER__RightLeftReverseTriangle_Debug CMakeFiles/RightLeftReverseTriangle.dir/Patterns/right_left_reverse_triangle.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RightLeftReverseTriangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RightLeftReverseTriangle.exe
+  TARGET_IMPLIB = libRightLeftReverseTriangle.dll.a
+  TARGET_PDB = RightLeftReverseTriangle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target InvertedRightAngleTriangle
+
+
+#############################################
+# Order-only phony target for InvertedRightAngleTriangle
+
+build cmake_object_order_depends_target_InvertedRightAngleTriangle: phony || CMakeFiles/InvertedRightAngleTriangle.dir
+
+build CMakeFiles/InvertedRightAngleTriangle.dir/Patterns/inverted_right_angle_triangle.c.obj: C_COMPILER__InvertedRightAngleTriangle_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/inverted_right_angle_triangle.c || cmake_object_order_depends_target_InvertedRightAngleTriangle
+  DEP_FILE = CMakeFiles\InvertedRightAngleTriangle.dir\Patterns\inverted_right_angle_triangle.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\InvertedRightAngleTriangle.dir
+  OBJECT_FILE_DIR = CMakeFiles\InvertedRightAngleTriangle.dir\Patterns
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target InvertedRightAngleTriangle
+
+
+#############################################
+# Link the executable InvertedRightAngleTriangle.exe
+
+build InvertedRightAngleTriangle.exe: C_EXECUTABLE_LINKER__InvertedRightAngleTriangle_Debug CMakeFiles/InvertedRightAngleTriangle.dir/Patterns/inverted_right_angle_triangle.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\InvertedRightAngleTriangle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = InvertedRightAngleTriangle.exe
+  TARGET_IMPLIB = libInvertedRightAngleTriangle.dll.a
+  TARGET_PDB = InvertedRightAngleTriangle.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -742,6 +808,8 @@ build IncrementNumber: phony IncrementNumber.exe
 
 build IncrementNumberInRows: phony IncrementNumberInRows.exe
 
+build InvertedRightAngleTriangle: phony InvertedRightAngleTriangle.exe
+
 build LeftRightAsterisks: phony LeftRightAsterisks.exe
 
 build ProfitLoss: phony ProfitLoss.exe
@@ -751,6 +819,8 @@ build RepeatNumbers: phony RepeatNumbers.exe
 build ReverseNumber: phony ReverseNumber.exe
 
 build RightLeftAsterisks: phony RightLeftAsterisks.exe
+
+build RightLeftReverseTriangle: phony RightLeftReverseTriangle.exe
 
 build SI: phony SI.exe
 
@@ -774,7 +844,7 @@ build learningC: phony learningC.exe
 #############################################
 # Folder: C:/Users/sumancfc/Videos/learningC/cmake-build-debug
 
-build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe LeftRightAsterisks.exe RightLeftAsterisks.exe RepeatNumbers.exe IncrementNumber.exe IncrementNumberInRows.exe
+build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe LeftRightAsterisks.exe RightLeftAsterisks.exe RepeatNumbers.exe IncrementNumber.exe IncrementNumberInRows.exe RightLeftReverseTriangle.exe InvertedRightAngleTriangle.exe
 
 # =============================================================================
 # Built-in targets

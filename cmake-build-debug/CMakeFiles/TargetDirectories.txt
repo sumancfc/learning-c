@@ -18,5 +18,7 @@ C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/RightLeftAsteris
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/RepeatNumbers.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/IncrementNumber.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/IncrementNumberInRows.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/RightLeftReverseTriangle.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/InvertedRightAngleTriangle.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

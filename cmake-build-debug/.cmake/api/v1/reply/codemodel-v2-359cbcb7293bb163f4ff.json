@@ -34,7 +34,9 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20,
+						21
 					]
 				}
 			],
@@ -68,7 +70,9 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20,
+						21
 					]
 				}
 			],
@@ -132,6 +136,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "InvertedRightAngleTriangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InvertedRightAngleTriangle-Debug-6ff090899ec65de3f9e1.json",
+					"name" : "InvertedRightAngleTriangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "LeftRightAsterisks::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-LeftRightAsterisks-Debug-880b2682f956fcd0dfbf.json",
 					"name" : "LeftRightAsterisks",
@@ -163,6 +174,13 @@
 					"id" : "RightLeftAsterisks::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-RightLeftAsterisks-Debug-337ab399ca502938fbae.json",
 					"name" : "RightLeftAsterisks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RightLeftReverseTriangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RightLeftReverseTriangle-Debug-ae251e4321ba25f49fb3.json",
+					"name" : "RightLeftReverseTriangle",
 					"projectIndex" : 0
 				},
 				{
