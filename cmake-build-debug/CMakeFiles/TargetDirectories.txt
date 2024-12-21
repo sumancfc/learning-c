@@ -20,5 +20,6 @@ C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/IncrementNumber.
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/IncrementNumberInRows.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/RightLeftReverseTriangle.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/InvertedRightAngleTriangle.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/DecreaseNumberInReverse.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

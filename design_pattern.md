@@ -67,10 +67,22 @@
 
 ## Pattern 7: Inverted Right-Angle Triangle Pattern with Stars
 ### You can find the code for these patterns [here](./Patterns/inverted_right_angle_triangle.c).
+
 ```
 *****
  ****
   ***
    **
     *
+```
+
+## Pattern 8: Decreasing Number Pattern in Reverse Order
+### You can find the code for these patterns [here](./Patterns/inverted_right_angle_triangle.c).
+
+```
+54321
+5432
+543
+54
+5
 ```

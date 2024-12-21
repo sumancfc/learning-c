@@ -766,6 +766,39 @@ build InvertedRightAngleTriangle.exe: C_EXECUTABLE_LINKER__InvertedRightAngleTri
   TARGET_IMPLIB = libInvertedRightAngleTriangle.dll.a
   TARGET_PDB = InvertedRightAngleTriangle.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DecreaseNumberInReverse
+
+
+#############################################
+# Order-only phony target for DecreaseNumberInReverse
+
+build cmake_object_order_depends_target_DecreaseNumberInReverse: phony || CMakeFiles/DecreaseNumberInReverse.dir
+
+build CMakeFiles/DecreaseNumberInReverse.dir/Patterns/decreasing_number_in_reverse.c.obj: C_COMPILER__DecreaseNumberInReverse_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/decreasing_number_in_reverse.c || cmake_object_order_depends_target_DecreaseNumberInReverse
+  DEP_FILE = CMakeFiles\DecreaseNumberInReverse.dir\Patterns\decreasing_number_in_reverse.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DecreaseNumberInReverse.dir
+  OBJECT_FILE_DIR = CMakeFiles\DecreaseNumberInReverse.dir\Patterns
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DecreaseNumberInReverse
+
+
+#############################################
+# Link the executable DecreaseNumberInReverse.exe
+
+build DecreaseNumberInReverse.exe: C_EXECUTABLE_LINKER__DecreaseNumberInReverse_Debug CMakeFiles/DecreaseNumberInReverse.dir/Patterns/decreasing_number_in_reverse.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DecreaseNumberInReverse.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DecreaseNumberInReverse.exe
+  TARGET_IMPLIB = libDecreaseNumberInReverse.dll.a
+  TARGET_PDB = DecreaseNumberInReverse.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -793,6 +826,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Target aliases.
 
 build Counter: phony Counter.exe
+
+build DecreaseNumberInReverse: phony DecreaseNumberInReverse.exe
 
 build DigitsSum: phony DigitsSum.exe
 
@@ -844,7 +879,7 @@ build learningC: phony learningC.exe
 #############################################
 # Folder: C:/Users/sumancfc/Videos/learningC/cmake-build-debug
 
-build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe LeftRightAsterisks.exe RightLeftAsterisks.exe RepeatNumbers.exe IncrementNumber.exe IncrementNumberInRows.exe RightLeftReverseTriangle.exe InvertedRightAngleTriangle.exe
+build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe LeftRightAsterisks.exe RightLeftAsterisks.exe RepeatNumbers.exe IncrementNumber.exe IncrementNumberInRows.exe RightLeftReverseTriangle.exe InvertedRightAngleTriangle.exe DecreaseNumberInReverse.exe
 
 # =============================================================================
 # Built-in targets
