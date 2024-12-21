@@ -14,5 +14,7 @@ C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/SWAP.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/EvenOdd.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/ProfitLoss.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/trianglePattern.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/Pattern1.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/Pattern2.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

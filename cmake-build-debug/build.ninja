@@ -544,11 +544,11 @@ build ProfitLoss.exe: C_EXECUTABLE_LINKER__ProfitLoss_Debug CMakeFiles/ProfitLos
 
 build cmake_object_order_depends_target_trianglePattern: phony || CMakeFiles/trianglePattern.dir
 
-build CMakeFiles/trianglePattern.dir/TrianglePattern.c.obj: C_COMPILER__trianglePattern_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/TrianglePattern.c || cmake_object_order_depends_target_trianglePattern
-  DEP_FILE = CMakeFiles\trianglePattern.dir\TrianglePattern.c.obj.d
+build CMakeFiles/trianglePattern.dir/Patterns/TrianglePattern.c.obj: C_COMPILER__trianglePattern_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/TrianglePattern.c || cmake_object_order_depends_target_trianglePattern
+  DEP_FILE = CMakeFiles\trianglePattern.dir\Patterns\TrianglePattern.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\trianglePattern.dir
-  OBJECT_FILE_DIR = CMakeFiles\trianglePattern.dir
+  OBJECT_FILE_DIR = CMakeFiles\trianglePattern.dir\Patterns
 
 
 # =============================================================================
@@ -558,7 +558,7 @@ build CMakeFiles/trianglePattern.dir/TrianglePattern.c.obj: C_COMPILER__triangle
 #############################################
 # Link the executable trianglePattern.exe
 
-build trianglePattern.exe: C_EXECUTABLE_LINKER__trianglePattern_Debug CMakeFiles/trianglePattern.dir/TrianglePattern.c.obj
+build trianglePattern.exe: C_EXECUTABLE_LINKER__trianglePattern_Debug CMakeFiles/trianglePattern.dir/Patterns/TrianglePattern.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\trianglePattern.dir
@@ -567,6 +567,72 @@ build trianglePattern.exe: C_EXECUTABLE_LINKER__trianglePattern_Debug CMakeFiles
   TARGET_FILE = trianglePattern.exe
   TARGET_IMPLIB = libtrianglePattern.dll.a
   TARGET_PDB = trianglePattern.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pattern1
+
+
+#############################################
+# Order-only phony target for Pattern1
+
+build cmake_object_order_depends_target_Pattern1: phony || CMakeFiles/Pattern1.dir
+
+build CMakeFiles/Pattern1.dir/Patterns/Pattern1.c.obj: C_COMPILER__Pattern1_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/Pattern1.c || cmake_object_order_depends_target_Pattern1
+  DEP_FILE = CMakeFiles\Pattern1.dir\Patterns\Pattern1.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pattern1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pattern1.dir\Patterns
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pattern1
+
+
+#############################################
+# Link the executable Pattern1.exe
+
+build Pattern1.exe: C_EXECUTABLE_LINKER__Pattern1_Debug CMakeFiles/Pattern1.dir/Patterns/Pattern1.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pattern1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pattern1.exe
+  TARGET_IMPLIB = libPattern1.dll.a
+  TARGET_PDB = Pattern1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pattern2
+
+
+#############################################
+# Order-only phony target for Pattern2
+
+build cmake_object_order_depends_target_Pattern2: phony || CMakeFiles/Pattern2.dir
+
+build CMakeFiles/Pattern2.dir/Patterns/Pattern2.c.obj: C_COMPILER__Pattern2_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/Pattern2.c || cmake_object_order_depends_target_Pattern2
+  DEP_FILE = CMakeFiles\Pattern2.dir\Patterns\Pattern2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pattern2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pattern2.dir\Patterns
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pattern2
+
+
+#############################################
+# Link the executable Pattern2.exe
+
+build Pattern2.exe: C_EXECUTABLE_LINKER__Pattern2_Debug CMakeFiles/Pattern2.dir/Patterns/Pattern2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pattern2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pattern2.exe
+  TARGET_IMPLIB = libPattern2.dll.a
+  TARGET_PDB = Pattern2.exe.dbg
 
 
 #############################################
@@ -606,6 +672,10 @@ build EvenOdd: phony EvenOdd.exe
 
 build HELLO: phony HELLO.exe
 
+build Pattern1: phony Pattern1.exe
+
+build Pattern2: phony Pattern2.exe
+
 build ProfitLoss: phony ProfitLoss.exe
 
 build ReverseNumber: phony ReverseNumber.exe
@@ -634,7 +704,7 @@ build trianglePattern: phony trianglePattern.exe
 #############################################
 # Folder: C:/Users/sumancfc/Videos/learningC/cmake-build-debug
 
-build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe trianglePattern.exe
+build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe trianglePattern.exe Pattern1.exe Pattern2.exe
 
 # =============================================================================
 # Built-in targets

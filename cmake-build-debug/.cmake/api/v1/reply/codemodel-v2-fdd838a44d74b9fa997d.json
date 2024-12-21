@@ -30,7 +30,9 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17
 					]
 				}
 			],
@@ -60,7 +62,9 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16,
+						17
 					]
 				}
 			],
@@ -106,6 +110,20 @@
 					"id" : "HELLO::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-HELLO-Debug-4e19c39d8d681d793004.json",
 					"name" : "HELLO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pattern1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pattern1-Debug-5c0ba4fa8c393231e58e.json",
+					"name" : "Pattern1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pattern2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pattern2-Debug-59afd19cb6f270573a79.json",
+					"name" : "Pattern2",
 					"projectIndex" : 0
 				},
 				{
@@ -174,7 +192,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "trianglePattern::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-trianglePattern-Debug-b349798fc6dc9489098a.json",
+					"jsonFile" : "target-trianglePattern-Debug-24fe2b5fe4881e3f1664.json",
 					"name" : "trianglePattern",
 					"projectIndex" : 0
 				}
