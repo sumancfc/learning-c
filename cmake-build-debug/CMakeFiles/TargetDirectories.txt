@@ -22,5 +22,7 @@ C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/RightLeftReverse
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/InvertedRightAngleTriangle.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/DecreaseNumberInReverse.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/PatternsExample.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/LeapYear.dir
+C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/Lottery.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/sumancfc/Videos/learningC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

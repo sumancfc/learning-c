@@ -478,8 +478,8 @@ build SWAP.exe: C_EXECUTABLE_LINKER__SWAP_Debug CMakeFiles/SWAP.dir/LetUsC/Chapt
 
 build cmake_object_order_depends_target_EvenOdd: phony || CMakeFiles/EvenOdd.dir
 
-build CMakeFiles/EvenOdd.dir/LetUsC/DecisionControl/evenOdd.c.obj: C_COMPILER__EvenOdd_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/DecisionControl/evenOdd.c || cmake_object_order_depends_target_EvenOdd
-  DEP_FILE = CMakeFiles\EvenOdd.dir\LetUsC\DecisionControl\evenOdd.c.obj.d
+build CMakeFiles/EvenOdd.dir/LetUsC/DecisionControl/even_odd.c.obj: C_COMPILER__EvenOdd_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/DecisionControl/even_odd.c || cmake_object_order_depends_target_EvenOdd
+  DEP_FILE = CMakeFiles\EvenOdd.dir\LetUsC\DecisionControl\even_odd.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\EvenOdd.dir
   OBJECT_FILE_DIR = CMakeFiles\EvenOdd.dir\LetUsC\DecisionControl
@@ -492,7 +492,7 @@ build CMakeFiles/EvenOdd.dir/LetUsC/DecisionControl/evenOdd.c.obj: C_COMPILER__E
 #############################################
 # Link the executable EvenOdd.exe
 
-build EvenOdd.exe: C_EXECUTABLE_LINKER__EvenOdd_Debug CMakeFiles/EvenOdd.dir/LetUsC/DecisionControl/evenOdd.c.obj
+build EvenOdd.exe: C_EXECUTABLE_LINKER__EvenOdd_Debug CMakeFiles/EvenOdd.dir/LetUsC/DecisionControl/even_odd.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\EvenOdd.dir
@@ -511,8 +511,8 @@ build EvenOdd.exe: C_EXECUTABLE_LINKER__EvenOdd_Debug CMakeFiles/EvenOdd.dir/Let
 
 build cmake_object_order_depends_target_ProfitLoss: phony || CMakeFiles/ProfitLoss.dir
 
-build CMakeFiles/ProfitLoss.dir/LetUsC/DecisionControl/profitAndLoss.c.obj: C_COMPILER__ProfitLoss_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/DecisionControl/profitAndLoss.c || cmake_object_order_depends_target_ProfitLoss
-  DEP_FILE = CMakeFiles\ProfitLoss.dir\LetUsC\DecisionControl\profitAndLoss.c.obj.d
+build CMakeFiles/ProfitLoss.dir/LetUsC/DecisionControl/profit_loss.c.obj: C_COMPILER__ProfitLoss_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/DecisionControl/profit_loss.c || cmake_object_order_depends_target_ProfitLoss
+  DEP_FILE = CMakeFiles\ProfitLoss.dir\LetUsC\DecisionControl\profit_loss.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ProfitLoss.dir
   OBJECT_FILE_DIR = CMakeFiles\ProfitLoss.dir\LetUsC\DecisionControl
@@ -525,7 +525,7 @@ build CMakeFiles/ProfitLoss.dir/LetUsC/DecisionControl/profitAndLoss.c.obj: C_CO
 #############################################
 # Link the executable ProfitLoss.exe
 
-build ProfitLoss.exe: C_EXECUTABLE_LINKER__ProfitLoss_Debug CMakeFiles/ProfitLoss.dir/LetUsC/DecisionControl/profitAndLoss.c.obj
+build ProfitLoss.exe: C_EXECUTABLE_LINKER__ProfitLoss_Debug CMakeFiles/ProfitLoss.dir/LetUsC/DecisionControl/profit_loss.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ProfitLoss.dir
@@ -832,6 +832,72 @@ build PatternsExample.exe: C_EXECUTABLE_LINKER__PatternsExample_Debug CMakeFiles
   TARGET_IMPLIB = libPatternsExample.dll.a
   TARGET_PDB = PatternsExample.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target LeapYear
+
+
+#############################################
+# Order-only phony target for LeapYear
+
+build cmake_object_order_depends_target_LeapYear: phony || CMakeFiles/LeapYear.dir
+
+build CMakeFiles/LeapYear.dir/LetUsC/DecisionControl/leap_year.c.obj: C_COMPILER__LeapYear_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/DecisionControl/leap_year.c || cmake_object_order_depends_target_LeapYear
+  DEP_FILE = CMakeFiles\LeapYear.dir\LetUsC\DecisionControl\leap_year.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LeapYear.dir
+  OBJECT_FILE_DIR = CMakeFiles\LeapYear.dir\LetUsC\DecisionControl
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LeapYear
+
+
+#############################################
+# Link the executable LeapYear.exe
+
+build LeapYear.exe: C_EXECUTABLE_LINKER__LeapYear_Debug CMakeFiles/LeapYear.dir/LetUsC/DecisionControl/leap_year.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LeapYear.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LeapYear.exe
+  TARGET_IMPLIB = libLeapYear.dll.a
+  TARGET_PDB = LeapYear.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Lottery
+
+
+#############################################
+# Order-only phony target for Lottery
+
+build cmake_object_order_depends_target_Lottery: phony || CMakeFiles/Lottery.dir
+
+build CMakeFiles/Lottery.dir/LetUsC/DecisionControl/lottery.c.obj: C_COMPILER__Lottery_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/LetUsC/DecisionControl/lottery.c || cmake_object_order_depends_target_Lottery
+  DEP_FILE = CMakeFiles\Lottery.dir\LetUsC\DecisionControl\lottery.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Lottery.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lottery.dir\LetUsC\DecisionControl
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Lottery
+
+
+#############################################
+# Link the executable Lottery.exe
+
+build Lottery.exe: C_EXECUTABLE_LINKER__Lottery_Debug CMakeFiles/Lottery.dir/LetUsC/DecisionControl/lottery.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Lottery.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Lottery.exe
+  TARGET_IMPLIB = libLottery.dll.a
+  TARGET_PDB = Lottery.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -878,7 +944,11 @@ build IncrementNumberInRows: phony IncrementNumberInRows.exe
 
 build InvertedRightAngleTriangle: phony InvertedRightAngleTriangle.exe
 
+build LeapYear: phony LeapYear.exe
+
 build LeftRightAsterisks: phony LeftRightAsterisks.exe
+
+build Lottery: phony Lottery.exe
 
 build PatternsExample: phony PatternsExample.exe
 
@@ -914,7 +984,7 @@ build learningC: phony learningC.exe
 #############################################
 # Folder: C:/Users/sumancfc/Videos/learningC/cmake-build-debug
 
-build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe LeftRightAsterisks.exe RightLeftAsterisks.exe RepeatNumbers.exe IncrementNumber.exe IncrementNumberInRows.exe RightLeftReverseTriangle.exe InvertedRightAngleTriangle.exe DecreaseNumberInReverse.exe PatternsExample.exe
+build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe LeftRightAsterisks.exe RightLeftAsterisks.exe RepeatNumbers.exe IncrementNumber.exe IncrementNumberInRows.exe RightLeftReverseTriangle.exe InvertedRightAngleTriangle.exe DecreaseNumberInReverse.exe PatternsExample.exe LeapYear.exe Lottery.exe
 
 # =============================================================================
 # Built-in targets

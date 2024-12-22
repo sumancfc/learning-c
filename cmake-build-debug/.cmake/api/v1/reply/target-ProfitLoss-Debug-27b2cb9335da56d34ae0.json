@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "EvenOdd.exe"
+			"path" : "ProfitLoss.exe"
 		},
 		{
-			"path" : "EvenOdd.pdb"
+			"path" : "ProfitLoss.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 20,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "EvenOdd::@6890427a1f51a3e7e1df",
+	"id" : "ProfitLoss::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "EvenOdd",
-	"nameOnDisk" : "EvenOdd.exe",
+	"name" : "ProfitLoss",
+	"nameOnDisk" : "ProfitLoss.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "LetUsC/DecisionControl/evenOdd.c",
+			"path" : "LetUsC/DecisionControl/profit_loss.c",
 			"sourceGroupIndex" : 0
 		}
 	],
