@@ -799,6 +799,39 @@ build DecreaseNumberInReverse.exe: C_EXECUTABLE_LINKER__DecreaseNumberInReverse_
   TARGET_IMPLIB = libDecreaseNumberInReverse.dll.a
   TARGET_PDB = DecreaseNumberInReverse.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target PatternsExample
+
+
+#############################################
+# Order-only phony target for PatternsExample
+
+build cmake_object_order_depends_target_PatternsExample: phony || CMakeFiles/PatternsExample.dir
+
+build CMakeFiles/PatternsExample.dir/Patterns/patterns_example.c.obj: C_COMPILER__PatternsExample_unscanned_Debug C$:/Users/sumancfc/Videos/learningC/Patterns/patterns_example.c || cmake_object_order_depends_target_PatternsExample
+  DEP_FILE = CMakeFiles\PatternsExample.dir\Patterns\patterns_example.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PatternsExample.dir
+  OBJECT_FILE_DIR = CMakeFiles\PatternsExample.dir\Patterns
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PatternsExample
+
+
+#############################################
+# Link the executable PatternsExample.exe
+
+build PatternsExample.exe: C_EXECUTABLE_LINKER__PatternsExample_Debug CMakeFiles/PatternsExample.dir/Patterns/patterns_example.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PatternsExample.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PatternsExample.exe
+  TARGET_IMPLIB = libPatternsExample.dll.a
+  TARGET_PDB = PatternsExample.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -847,6 +880,8 @@ build InvertedRightAngleTriangle: phony InvertedRightAngleTriangle.exe
 
 build LeftRightAsterisks: phony LeftRightAsterisks.exe
 
+build PatternsExample: phony PatternsExample.exe
+
 build ProfitLoss: phony ProfitLoss.exe
 
 build RepeatNumbers: phony RepeatNumbers.exe
@@ -879,7 +914,7 @@ build learningC: phony learningC.exe
 #############################################
 # Folder: C:/Users/sumancfc/Videos/learningC/cmake-build-debug
 
-build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe LeftRightAsterisks.exe RightLeftAsterisks.exe RepeatNumbers.exe IncrementNumber.exe IncrementNumberInRows.exe RightLeftReverseTriangle.exe InvertedRightAngleTriangle.exe DecreaseNumberInReverse.exe
+build all: phony learningC.exe HELLO.exe WHILE.exe Counter.exe Sentinel.exe SI.exe EX1.exe DistanceCalculate.exe TemperatureCalculate.exe DigitsSum.exe ReverseNumber.exe TriangleArea.exe SWAP.exe EvenOdd.exe ProfitLoss.exe LeftRightAsterisks.exe RightLeftAsterisks.exe RepeatNumbers.exe IncrementNumber.exe IncrementNumberInRows.exe RightLeftReverseTriangle.exe InvertedRightAngleTriangle.exe DecreaseNumberInReverse.exe PatternsExample.exe
 
 # =============================================================================
 # Built-in targets
